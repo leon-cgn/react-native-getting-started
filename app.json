@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "experiments": {
+      "typedRoutes": true
+    },
+    "name": "getting-started",
+    "orientation": "portrait",
+    "plugins": ["expo-router"],
+    "scheme": "myapp",
+    "slug": "getting-started",
+    "userInterfaceStyle": "automatic",
+    "version": "1.0.0"
+  }
+}

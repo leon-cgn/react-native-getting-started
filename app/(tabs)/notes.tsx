@@ -1,9 +1,12 @@
-import { StyleSheet, Text, View } from "react-native";
+import { Image } from "expo-image";
+import { StyleSheet, View } from "react-native";
+
+const KowalskiImage = require("../../assets/images/kowalski-noted.jpeg");
 
 export default function NotesScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Notes screen</Text>
+      <Image style={styles.image} source={KowalskiImage} contentFit="contain" />
     </View>
   );
 }
@@ -15,7 +18,8 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
   },
-  text: {
-    color: "#fff",
+  image: {
+    flex: 1,
+    width: "80%",
   },
 });

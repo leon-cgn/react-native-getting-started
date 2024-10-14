@@ -30,14 +30,12 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="notes"
+        name="list"
         options={{
-          title: "Notizen",
+          title: "Liste",
           tabBarIcon: ({ color, focused }) => (
             <Ionicons
-              name={
-                focused ? "information-circle" : "information-circle-outline"
-              }
+              name={focused ? "list-circle" : "list-circle-outline"}
               color={color}
               size={24}
             />

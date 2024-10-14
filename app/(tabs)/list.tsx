@@ -7,6 +7,7 @@ import { FlatList, StyleSheet, Text, View } from "react-native";
 // 3. Mit react-native-gesture-handler ein Item mittels swipe-nach-links löschen
 // 4. Schön stylen und Überschrift hinzufügen
 // 5. Anzahl der Items in Überschrift anzeigen
+// 6. Beim Runterziehen im TextInput das Keyboard verstecken
 
 type ListItem = {
   id: string;

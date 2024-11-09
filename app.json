@@ -5,7 +5,14 @@
     },
     "name": "getting-started",
     "orientation": "portrait",
-    "plugins": ["expo-router"],
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ],
     "scheme": "myapp",
     "slug": "getting-started",
     "userInterfaceStyle": "automatic",
